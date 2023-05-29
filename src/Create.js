@@ -97,7 +97,7 @@ export default function Create (){
                     },
                 })
                   .then((data) => data.json())
-                  .then(() => navigate("/create"))
+                  .then(() => navigate("/"))
               }}
             >
             Add User</Button>
